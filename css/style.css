@@ -318,16 +318,20 @@ ul.conat_info li a:hover {
      flex-wrap: wrap;
 }
 
-.header {
+/* .header {
      width: 100%;
-     padding: 30px 30px;
-     background: transparent;
+      padding: 30px 30px;
+     background: transparent; 
      position: absolute;
      z-index: 999;
-}
+} */
 
 .logo-img{
-     width: 220px;
+     width: 160px;
+}
+
+.menu-btn-img{
+     z-index: 1000;
 }
 
 
@@ -879,7 +883,7 @@ ul.conat_info li a:hover {
 .main_form {
      background: #fff;
      border-radius: 20px;
-     max-width: 426px;
+     max-width: 726px;
      width: 100%;
      float: right;
 }
